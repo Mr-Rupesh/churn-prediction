@@ -77,12 +77,12 @@ if st.button("Predict Churn Risk"):
 
     st.subheader("Retention Suggestion")
     if contract == "Month-to-month" and tenure < 12:
-        st.info("New customer on a flexible plan — offer a discounted 1-year contract to lock in loyalty.")
+        st.info("New customer on a flexible plan offer a discounted 1-year contract to lock in loyalty.")
     elif monthly_charges > 80 and prediction == "Yes":
-        st.info("High monthly charges with churn risk — consider a loyalty discount or bundle offer.")
+        st.info("High monthly charges with churn risk consider a loyalty discount or bundle offer.")
     elif online_security == "No" and tech_support == "No" and prediction == "Yes":
-        st.info("No security or tech support add-ons — offer a free trial of these services.")
+        st.info("No security or tech support add ons offer a free trial of these services.")
     elif prediction == "Yes":
-        st.info("Customer flagged as at-risk — recommend proactive outreach from retention team.")
+        st.info("Customer flagged as at risk recommend proactive outreach from retention team.")
     else:
-        st.info("Customer profile looks stable — no urgent action needed.")
+        st.info("Customer profile looks stable no urgent action needed.")

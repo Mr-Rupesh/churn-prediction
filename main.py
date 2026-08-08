@@ -36,7 +36,7 @@ class Customer(BaseModel):
 
 @app.get("/")
 def root():
-    return {"status": "ok", "message": "Churn Prediction API is running"}
+    return {"status": "ok", "message": "Churn Prediction API is Running"}
 
 
 @app.post("/predict")
