@@ -1,6 +1,5 @@
 # Customer Churn Prediction
 
-Full-stack churn prediction system built for the Nexoraa Technosolve ML internship assignment.
 
 ## Overview
 
